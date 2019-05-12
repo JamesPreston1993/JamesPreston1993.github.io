@@ -1,6 +1,6 @@
 {
-"companyName": "James Preston",
-"productName": "Insurance Fraud",
+"companyName": "DefaultCompany",
+"productName": "InsuranceFraud",
 "productVersion": "0.1",
 "dataUrl": "InsuranceFraud.data.unityweb",
 "wasmCodeUrl": "InsuranceFraud.wasm.code.unityweb",
