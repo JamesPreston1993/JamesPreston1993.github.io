@@ -1,0 +1,40 @@
+.banner {
+    background-color: #0062cc;
+    border-bottom: 1px solid #004ea3;
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.banner-logo {
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.banner-logo:active,
+.banner-logo:visited, {
+    color: #ffffff;
+}
+
+.banner-logo:hover {
+    color: #dddddd;
+}
+
+.banner-logo p.cursor {
+    display: inline;
+    font-size: 2rem;
+    position: relative;
+    top: 2px;
+}
+
+.banner-logo p.cursor.hidden {
+    opacity: 0;
+}
