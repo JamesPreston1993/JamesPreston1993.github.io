@@ -1,0 +1,36 @@
+body {
+  background-color: #ddd;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  left: 340px;
+  padding: 40px;
+  position: absolute;
+  top: 60px;
+  width: calc(100% - 420px);
+}
+
+.error-container h1 {
+  color: #434343;
+}
+
+.error-container h2 {
+  color: #676767;
+}
+
+/* Tablet and Mobile CSS */
+@media only screen and (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+
+  .app-container {
+    left: auto;
+    margin-top: 40px; 
+    position: relative;
+    width: calc(100% - 80px);
+  }
+}
