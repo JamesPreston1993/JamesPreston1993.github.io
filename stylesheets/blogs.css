@@ -10,9 +10,16 @@ article.blog header {
     text-align: left;
 }
 
-article.blog header h1 {
+article.blog header h1,
+article.blog header h2 {
     margin: 0;
     max-width: calc(100% - 40px);
+}
+
+article.blog header h2 {
+    color: lightgrey;
+    font-size: 1.1em;
+    margin-top: 5px;
 }
 
 article.blog footer {
@@ -44,8 +51,7 @@ article.blog footer a:visited {
 }
 
 .blogs-container .blog-content {
-    height: 200px;
-    max-height: 300px;
+    min-height: 200px;
     overflow: hidden;
 }
 
