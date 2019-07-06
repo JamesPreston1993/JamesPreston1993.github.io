@@ -1,5 +1,6 @@
 article.blog {
     background-color: #eeeeee;
+    box-shadow: 3px 3px lightgrey;
     margin-bottom: 40px;
 }
 

@@ -1,5 +1,6 @@
 aside.profile {
-    background-color: #eee;
+    background-color: #eeeeee;
+    box-shadow: 3px 3px lightgrey;
     color: #676767;
     display: inline-block;
     height: auto;
